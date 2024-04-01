@@ -1,0 +1,38 @@
+body {
+  background-color: lightcyan;
+}
+table {
+  border: 3px solid black;
+}
+
+thead {
+  font-weight: bold;
+  background-color: rgb(146, 193, 182);
+  text-align: center;
+}
+
+td {
+  border-top: 1px solid;
+}
+
+.header {
+  text-align: center;
+  font-family: "luckiest Guy";
+}
+
+.property {
+  font-weight: bold;
+}
+
+.nav {
+    display: inline;
+}
+
+.css {
+    text-align: left;
+}
+
+.css h2 {
+    text-align: center;
+    font-family: "luckiest guy";
+}

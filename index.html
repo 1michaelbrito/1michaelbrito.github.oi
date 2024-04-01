@@ -1,10 +1,101 @@
 <!DOCTYPE html>
-<html>
-
-<body>
-  <h1>Michael Brito</h1>
-  <p>Welcome to my website!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
-</body>
-
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML & CSS Reference Sheet</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+        <ul class="nav">
+          <li>Home</li>
+          <li>HTML</li>
+          <li>CSS</li>
+        </ul>
+      </nav>
+      <h1>CSS Reference Sheet</h1>
+    </header>
+    <section class="html"></section>
+    <section class="css">
+      <h2>CSS</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>CSS Properties</th>
+            <th>Styling Options and Description</th>
+            <th>Example</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="property">Borders</td>
+            <td>width / style /color</td>
+            <td>p { border: 3px solid coral; }</td>
+          </tr>
+          <tr>
+            <td class="property">Colors</td>
+            <td>Name keywords/ Hexadecimal/ RGB / HSL</td>
+            <td>
+              Name keywords: aqua<br />
+              Hexadecimal: #00ffff<br />
+              RGB value: rgb(0, 255, 255)<br />
+              HSL value: hsl(180, 100%, 100%)
+            </td>
+          </tr>
+          <tr>
+            <td class="property">Overflow</td>
+            <td>
+              hidden / scroll / visible<br />Defines how a block level element
+              should handle content that goes beyond its boundaries.
+            </td>
+            <td>p { overflow: scroll; }</td>
+          </tr>
+          <tr>
+            <td class="property">Pseudo-classes</td>
+            <td>
+              :hover Used when a user hovers over an element with the mouse
+              pointer.<br />
+              :active Used to style an element when it is clicked.<br />
+              :focus Used to highlight elements when they are selected or
+              focused on by the user.<br />
+              :visited Used to style elements that have been previously
+              visited.<br />
+              :first-child Used to style an element that is the first child of
+              its parent element.<br />
+              :last-child Used to style an element that is the last child of its
+              parent element.<br />
+              :not Used to target elements that do not match a given
+              selector.<br />
+              :enabled Used to style an element when it is enabled.<br />
+              :disabled
+            </td>
+            <td>a:hover { color: yellow; text-decoration: underline; }</td>
+          </tr>
+          <tr>
+            <td class="property">Margins</td>
+            <td>
+              <strong>margin</strong> Shorthand property for margin-top,
+              margin-bottom,margin-left and margin-right to create space around
+              an element or for each side individually.<br />
+              <strong>margin-bottom</strong> the bottom margin area for an
+              element.<br />
+              <strong>margin-left</strong> Defines the left margin area for an
+              element.<br />
+              <strong>margin-right</strong> Defines the right margin area for an
+              element.<br />
+              <strong>margin-top</strong> Defines the top margin area for an
+              element
+            </td>
+            <td>p { border: 1px solid aquamarine; margin: 20px; }</td>
+          </tr>
+        </tbody>
+        <tfoot></tfoot>
+      </table>
+    </section>
+  </body>
 </html>
